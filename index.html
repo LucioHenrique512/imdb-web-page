@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>IMDB - CodeNation Filmes</title>
+  <meta name="description" content="" />
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://kit.fontawesome.com/b85c26bca8.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+  <header class="header-container">
+    <nav class="main-nav">
+      <div class="nav-container">
+        <img src="img/logo-imdb.jpg" alt="IMDb" />
+        <ul>
+          <li><a href="#main-content">Lançamentos</a></li>
+          <li><a href="#main-content">Crítica</a></li>
+          <li><a href="#main-content">Em Cartaz</a></li>
+        </ul>
+        <div class="user-container">
+          <div class="user-pic">
+            <img src="img/walter-white.jpg" alt="User" />
+          </div>
+          <a onclick="handleClickMe(1)" href="#main-footer">Lúcio Henrique</a>
+        </div>
+      </div>
+    </nav>
+    <div class="content">
+      <h1>Mad Max: Estrada da Fúria</h1>
+      <ul class="tags">
+        <li><a href="#">Aventura</a></li>
+        <li><a href="#">Sci-Fi</a></li>
+        <li><a href="#">Terror</a></li>
+      </ul>
+      <a class="trailer-button" href="#">
+        Assitir Trailer
+        <span class="material-icons">
+          play_circle_outline
+        </span>
+      </a>
+      <div class="date-info">
+        <span class="titulo">Nos Cinemas</span>
+        <span class="data">15 de Outrubo de 2015 (Brasil)</span>
+      </div>
+    </div>
+  </header>
+  <nav id="nav-filtros" class="nav-filtros">
+    <ul>
+      <li><a href="#main-content">Nos Cinemas</a></li>
+      <li><a href="#main-content">Em Breve</a></li>
+      <li><a href="#main-content">Bilheteria</a></li>
+      <li><a href="#main-content">Séries</a></li>
+      <li><a href="#main-content">Trailers</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <section id="main-content" class="content-container">
+
+      <ul class="catalogo">
+
+
+        <!-- row -->
+
+        <li class="card">
+          <div class="card-header">
+            <div id="trailer-card-container">
+              <div>
+                <i class="fas fa-play"></i>
+                <span class="trailer-text">
+                  Ver o Traier
+                </span>
+              </div>
+            </div>
+            <img src="img/poster-guerra-civil.jpg" alt="Film Pic" />
+          </div>
+          <div class="card-body">
+            <h2>Gerra Civil</h2>
+            <a href="#">Ação e Aventura</a>
+            <div class="card-footer">
+              <span class="material-icons">
+                favorite
+              </span>
+              <span class="hate">7.0</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="card">
+          <div class="card-header">
+            <div id="trailer-card-container">
+              <div>
+                <i class="fas fa-play"></i>
+                <span class="trailer-text">
+                  Ver o Traier
+                </span>
+              </div>
+            </div>
+            <img src="img/poster-alita.jpg" alt="Film Pic" />
+          </div>
+          <div class="card-body">
+            <h2>Alita</h2>
+            <a href="#">Ação e Aventura</a>
+            <div class="card-footer">
+              <span class="material-icons">
+                favorite
+              </span>
+              <span class="hate">7.0</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="card">
+          <div class="card-header">
+            <div id="trailer-card-container">
+              <div>
+                <i class="fas fa-play"></i>
+                <span class="trailer-text">
+                  Ver o Traier
+                </span>
+              </div>
+            </div>
+            <img src="img/poster-batman-superman.jpg" alt="Film Pic" />
+          </div>
+          <div class="card-body">
+            <h2>Batman vs Superman</h2>
+            <a href="#">Ação e Aventura</a>
+            <div class="card-footer">
+              <span class="material-icons">
+                favorite
+              </span>
+              <span class="hate">7.0</span>
+            </div>
+          </div>
+
+        </li>
+        <li class="card">
+          <div class="card-header">
+            <div id="trailer-card-container">
+              <div>
+                <i class="fas fa-play"></i>
+                <span class="trailer-text">
+                  Ver o Traier
+                </span>
+              </div>
+            </div>
+            <img src="img/poster-bladerunner.jpg" alt="Film Pic" />
+          </div>
+          <div class="card-body">
+            <h2>Harrison Ford 2049</h2>
+            <a href="#">Ação e Aventura</a>
+            <div class="card-footer">
+              <span class="material-icons">
+                favorite
+              </span>
+              <span class="hate">7.0</span>
+            </div>
+          </div>
+        </li>
+
+        <!-- row -->
+
+        <li class="card">
+          <div class="card-header">
+            <div id="trailer-card-container">
+              <div>
+                <i class="fas fa-play"></i>
+                <span class="trailer-text">
+                  Ver o Traier
+                </span>
+              </div>
+            </div>
+            <img src="img/poster-capita-marvel.jpg" alt="Film Pic" />
+          </div>
+          <div class="card-body">
+            <h2>Capitã Marvel</h2>
+            <a href="#">Ação e Aventura</a>
+            <div class="card-footer">
+              <span class="material-icons">
+                favorite
+              </span>
+              <span class="hate">7.0</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="card">
+          <div class="card-header">
+            <div id="trailer-card-container">
+              <div>
+                <i class="fas fa-play"></i>
+                <span class="trailer-text">
+                  Ver o Traier
+                </span>
+              </div>
+            </div>
+            <img src="img/poster-coringa.jpg" alt="Film Pic" />
+          </div>
+          <div class="card-body">
+            <h2>Coringa</h2>
+            <a href="#">Ação e Aventura</a>
+            <div class="card-footer">
+              <span class="material-icons">
+                favorite
+              </span>
+              <span class="hate">7.0</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="card">
+          <div class="card-header">
+            <div id="trailer-card-container">
+              <div>
+                <i class="fas fa-play"></i>
+                <span class="trailer-text">
+                  Ver o Traier
+                </span>
+              </div>
+            </div>
+            <img src="img/poster-jurassic-world.jpg" alt="Film Pic" />
+          </div>
+          <div class="card-body">
+            <h2>Jurasic World</h2>
+            <a href="#">Ação e Aventura</a>
+            <div class="card-footer">
+              <span class="material-icons">
+                favorite
+              </span>
+              <span class="hate">7.0</span>
+            </div>
+          </div>
+
+        </li>
+        <li class="card">
+          <div class="card-header">
+            <div id="trailer-card-container">
+              <div>
+                <i class="fas fa-play"></i>
+                <span class="trailer-text">
+                  Ver o Traier
+                </span>
+              </div>
+            </div>
+            <img src="img/poster-liga-justica.jpg" alt="Film Pic" />
+          </div>
+          <div class="card-body">
+            <h2>Liga da Justiça</h2>
+            <a href="#">Ação e Aventura</a>
+            <div class="card-footer">
+              <span class="material-icons">
+                favorite
+              </span>
+              <span class="hate">7.0</span>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+  </div>
+  <footer id="main-footer">
+    <div class="container">
+      <img src="img/logo-imdb.jpg" alt="IMDb" />
+      <ul>
+        <li><a href="https://github.com/LucioHenrique512" target="_blank"><i class="fab fa-github-square"></i></i></a>
+        </li>
+        <li><a href="https://www.linkedin.com/in/lucio-henrique-885468111/" target="_blank"><i
+              class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://wa.me/5537988348005" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+        <li><a href="https://www.instagram.com/lucio_he/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+  <script>
+
+    document.onscroll = () => onScroll();
+
+    const navFiltros = document.getElementById("nav-filtros");
+    const initNavFiltrosOffset = navFiltros.offsetTop;
+
+    const onScroll = () => {
+      if (window.pageYOffset >= navFiltros.offsetTop)
+        navFiltros.classList.add("stiky-menu");
+      if (window.pageYOffset <= initNavFiltrosOffset)
+        navFiltros.classList.remove("stiky-menu");
+    }
+
+    const handleClickMe = (counter) => {
+      const socialicons = document.getElementsByClassName('fab')
+
+      const github = socialicons[0]
+      const linkedin = socialicons[1]
+      const whatsapp = socialicons[2]
+      const instagram = socialicons[3]
+
+      setTimeout(() => {
+        github.classList.add("fa-github-square-color")
+        linkedin.classList.add("fa-linkedin-color")
+        whatsapp.classList.add("fa-whatsapp-color")
+        instagram.classList.add("fa-instagram-color")
+        setTimeout(() => {
+          github.classList.remove("fa-github-square-color")
+          linkedin.classList.remove("fa-linkedin-color")
+          whatsapp.classList.remove("fa-whatsapp-color")
+          instagram.classList.remove("fa-instagram-color")
+        }, 500)
+      }, 1000)
+
+    }
+  </script>
+</body>
+
+</html>
